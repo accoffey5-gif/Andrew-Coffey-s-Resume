@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Andrew Charles Coffey - Resume</title>
+  <style>
+    /* ===== COLORS ===== */
+    :root {
+      --gcu-purple: #522398;
+      --gcu-light-purple: #7e57c2;
+      --text-dark: #222;
+      --background-light: #ffffff;
+      --accent-gray: #f4f4f4;
+    }
+
+    /* ===== GLOBAL STYLES ===== */
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: var(--background-light);
+      color: var(--text-dark);
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--gcu-purple);
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+      color: #e0d4f7;
+    }
+
+    nav {
+      background-color: var(--gcu-light-purple);
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav li {
+      margin: 0 15px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 16px;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: var(--gcu-purple);
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      background-color: var(--accent-gray);
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: var(--gcu-purple);
+      border-bottom: 2px solid var(--gcu-purple);
+      padding-bottom: 5px;
+    }
+
+    h3 {
+      color: var(--gcu-light-purple);
+      margin-top: 25px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .contact-info {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 1.05rem;
+    }
+
+    .contact-info a {
+      color: var(--gcu-purple);
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+    .profile-pic {
+      display: block;
+      margin: 20px auto;
+      border-radius: 12px;
+      max-width: 220px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+      background-color: var(--gcu-purple);
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Andrew Charles Coffey</h1>
+    <p>Business & Sports Professional</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#references">References</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container" id="home">
+    <h2>Welcome</h2>
+    <img src="profile.jpg" alt="Andrew Coffey" class="profile-pic">
+    <p>Hello! My name is <strong>Andrew Charles Coffey</strong>, a 2023 graduate of <strong>Grand Canyon University</strong> with a Bachelor’s degree in <strong>Business Marketing & Advertising</strong>. I’m passionate about the intersection of business, marketing, and sports, having worked with organizations such as the <strong>Seattle Mariners</strong> and <strong>Perpetual Sports Network</strong>.</p>
+    <p>My experience spans marketing strategy, sales, event planning, and team development. I’m excited to continue building a career where I can combine creativity, leadership, and passion for sports to make meaningful contributions in the business world.</p>
+  </div>
+
+  <div class="container" id="resume">
+    <h2>Resume</h2>
+    <div class="contact-info">
+      📍 Phoenix, Arizona | 📞 (425) 530-3995 | ✉️ <a href="mailto:accoffey5@gmail.com">accoffey5@gmail.com</a> |
+      🔗 <a href="https://www.linkedin.com/in/andrew-coffey-b80225215" target="_blank">LinkedIn</a>
+    </div>
+
+    <h3>Experience</h3>
+    <ul>
+      <li><strong>Grand Canyon Education – University Admissions Counselor</strong> (Nov 2024 – Present)<br>
+      Manage 1,700+ student inquiries, coordinate events with 10+ schools.<br>
+      Responsible for scheduling, regional development, and student-family engagement.</li>
+
+      <li><strong>Brown and Partners – Executive Account Manager</strong> (May 2024 – Oct 2024)<br>
+      Oversaw B2B & B2C sales, trained and mentored sales reps.<br>
+      Closed 62 products in first month; generated $4,000+ in week two.</li>
+
+      <li><strong>Perpetual Sports Network – Team Representative</strong> (Jan 2024 – May 2024)<br>
+      Planned March Madness/Final Four events in Phoenix.<br>
+      Focused on marketing, branding, and business administration.</li>
+
+      <li><strong>Seattle Mariners – Gameday Marketing Intern</strong> (May 2023 – Jun 2024)<br>
+      Assisted with All-Star Week planning and stadium events.<br>
+      Contributed to marketing strategies and fan engagement.</li>
+
+      <li><strong>INSP – Marketing Intern</strong> (May 2022 – Aug 2022)<br>
+      Focused on SEO, digital content, and marketing tools.<br>
+      Wrote articles, reviews, and supported website management.</li>
+
+      <li><strong>GCU Marketing Media – Marketing Media Intern</strong> (Oct 2019 – Jan 2020)<br>
+      Collaborated with ESPN & GCU staff on sports event marketing.<br>
+      Assisted with athletics promotions and outreach.</li>
+
+      <li><strong>IST Service Staff – World Scouting Jamboree</strong> (Jul 2019)<br>
+      Supported marketing/media for 300,000+ attendees from 144 countries.</li>
+    </ul>
+
+    <h3>Education</h3>
+    <ul>
+      <li><strong>Grand Canyon University – Phoenix, AZ</strong><br>
+      Bachelor’s in Business Marketing & Advertising (2023)</li>
+      <li><strong>King’s High School – Shoreline, WA</strong></li>
+    </ul>
+
+    <h3>Key Skills & Certifications</h3>
+    <ul>
+      <li>Google Analytics Certified</li>
+      <li>Adobe Creative Suite, Illustrator, Hootsuite</li>
+      <li>SEO, Social Media Strategy, Content Development</li>
+      <li>Event Planning & Team Management</li>
+      <li>Training & Mentorship</li>
+    </ul>
+  </div>
+
+  <div class="container" id="references">
+    <h2>References</h2>
+    <ul>
+      <li><strong>Allen Angle</strong> | (704) 953-4379</li>
+      <li><strong>Michael Black</strong> | (803) 412-0210</li>
+      <li><strong>Rachel Chambers</strong> | (206) 346-4021</li>
+      <li><strong>Dave Blackledge</strong> | <a href="mailto:dblackledge1@cox.net">dblackledge1@cox.net</a></li>
+    </ul>
+  </div>
+
+  <div class="container" id="contact">
+    <h2>Contact</h2>
+    <p><strong>Location:</strong> Phoenix, Arizona</p>
+    <p><strong>Phone:</strong> (425) 530-3995</p>
+    <p><strong>Email:</strong> <a href="mailto:accoffey5@gmail.com">accoffey5@gmail.com</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/andrew-coffey-b80225215" target="_blank">linkedin.com/in/andrew-coffey-b80225215</a></p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Andrew Charles Coffey</p>
+  </footer>
+</body>
+</html>
